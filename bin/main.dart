@@ -6,4 +6,5 @@ void main() {
     print('${item.name} x${item.quantity}: ${item.totalCents} cents');
   }
   print('Total: ${cartTotalCents(items)} cents');
+  print('Shipping: ${shippingCents(items, 'US', false)} cents');
 }

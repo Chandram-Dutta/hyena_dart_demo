@@ -1,0 +1,7 @@
+name: hyena_dart_demo
+description: Demo of the Hyena Dart GitHub Action.
+publish_to: none
+version: 1.0.0
+
+environment:
+  sdk: ^3.11.0
